@@ -1,0 +1,14 @@
+# Hermes profile 範本（最小化）。由 scripts/setup.sh 複製到
+#   $HERMES_HOME/profiles/<HERMES_PROFILE>/config.yaml
+# 金鑰一律從 .env 讀取，這裡不放任何真實值或個人 ID。
+# 完整選項請見官方文件；此檔只保留 NVIDIA 為主要提供者的最小設定。
+
+model:
+  default: nvidia/nemotron-3-ultra-550b-a55b
+  provider: nvidia
+
+providers:
+  nvidia:
+    base_url: https://integrate.api.nvidia.com/v1
+    key_env: NVIDIA_API_KEY
+    api_mode: chat_completions

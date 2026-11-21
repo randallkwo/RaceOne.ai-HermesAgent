@@ -1,0 +1,8 @@
+.env
+*.key
+*.pem
+out/
+logs/
+__pycache__/
+*.pyc
+thumbnails/

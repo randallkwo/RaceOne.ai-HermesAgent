@@ -57,4 +57,4 @@ bash scripts/setup.sh
 
 ## 授權
 
-尚未指定。
+本專案以 [MIT License](LICENSE) 授權。注意：這個授權只涵蓋本 repo 的腳本與範本；Hermes Agent 本身與 NVIDIA、OpenRouter 等服務各有其自己的條款。

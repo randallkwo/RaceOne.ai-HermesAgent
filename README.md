@@ -55,6 +55,13 @@ bash scripts/setup.sh
 - `setup.sh` 在隔離環境（臨時 `HERMES_HOME`）驗證過；**完整的 Telegram 與模型對話尚未在乾淨機器端到端驗證**。
 - 本 repo 不含 Telegram、MCP 等進階設定；需要的話請參考官方文件。
 
+## 完整說明文件
+
+- **Markdown 版**：[hermes-agent-guide-v2.1.md](hermes-agent-guide-v2.1.md) —— 可直接在 GitHub 網頁閱讀、搜尋、複製指令
+- **PDF 版**：[hermes-agent-guide-v2.1.pdf](hermes-agent-guide-v2.1.pdf) —— 適合列印、離線備份、轉傳給同仁
+
+> 兩份內容一致（v2.1，2026-11-20 修訂），PDF 為原始來源，MD 由 PDF 轉換並人工校對。
+
 ## 授權
 
 本專案以 [MIT License](LICENSE) 授權。注意：這個授權只涵蓋本 repo 的腳本與範本；Hermes Agent 本身與 NVIDIA、OpenRouter 等服務各有其自己的條款。
